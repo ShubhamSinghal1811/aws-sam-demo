@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "shubham"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-m4czy60gji4o"
+s3_prefix = "shubham"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["HelloWorldFunction=982923341761.dkr.ecr.ap-south-1.amazonaws.com/demoappf311c80d/helloworldfunction19d43fc4repo"]
